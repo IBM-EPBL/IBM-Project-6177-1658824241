@@ -1,0 +1,56 @@
+body {
+	background-color: #f7a4a4;
+}
+.img-reg {
+	height: 12rem;
+	width: 12rem;
+	margin-top: 1rem;
+}
+.logout {
+	position: absolute;
+	right: 2rem;
+}
+.navbar {
+	height: 10rem;
+	background-color: "#0099ff";
+}
+.navbar-brand {
+	font-size: 3rem;
+}
+.img-logo {
+	height: 7rem;
+	width: 7rem;
+}
+.heading {
+	padding-top: 1.5rem;
+	padding-bottom: 1.5rem;
+	font-family: "Pacifico", cursive;
+	font-size: 2rem;
+	text-align: center;
+}
+.abt {
+	font-family: "Kalam", cursive;
+	padding-top: 1rem;
+	font-size: 1.1rem;
+}
+.upload-card {
+	margin: auto;
+	margin-top: 3rem;
+	height: 30rem;
+	width: 25rem;
+}
+.upload-btn {
+	width: 15rem;
+	margin: auto;
+	margin-bottom: 1rem;
+}
+.skin-img {
+	margin: 1rem;
+	width: 30rem;
+	height: 25rem;
+}
+::-webkit-file-upload-button {
+	background: #6f38c5;
+	color: #ffffff;
+	height: 1.7rem;
+}
