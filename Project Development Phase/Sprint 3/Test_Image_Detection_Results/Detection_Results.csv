@@ -1,1 +1,12 @@
-
+image,image_path,xmin,ymin,xmax,ymax,label,confidence,x_size,y_size
+images.jpg,D:\IBM_Assignments\yolo_structure\Data\Source_Images\Test_Images\images.jpg,76,38,209,134,0,0.6500058174133301,282,179
+melanoma.png,D:\IBM_Assignments\yolo_structure\Data\Source_Images\Test_Images\melanoma.png,364,168,581,340,1,0.30594074726104736,921,597
+psoriasis (360).jpg,D:\IBM_Assignments\yolo_structure\Data\Source_Images\Test_Images\psoriasis (360).jpg,366,42,551,234,0,0.9500312209129333,764,375
+psoriasis.jpg,D:\IBM_Assignments\yolo_structure\Data\Source_Images\Test_Images\psoriasis.jpg,409,169,479,242,0,0.25051477551460266,1200,630
+psoriasis.jpg,D:\IBM_Assignments\yolo_structure\Data\Source_Images\Test_Images\psoriasis.jpg,640,396,787,552,0,0.4599761664867401,1200,630
+psoriasis.jpg,D:\IBM_Assignments\yolo_structure\Data\Source_Images\Test_Images\psoriasis.jpg,623,170,789,496,0,0.550557017326355,1200,630
+psoriasis.jpg,D:\IBM_Assignments\yolo_structure\Data\Source_Images\Test_Images\psoriasis.jpg,346,360,511,522,0,0.7023965716362,1200,630
+psoriasis.jpg,D:\IBM_Assignments\yolo_structure\Data\Source_Images\Test_Images\psoriasis.jpg,652,192,766,388,0,0.7386243939399719,1200,630
+Rosacea (1).jpg,D:\IBM_Assignments\yolo_structure\Data\Source_Images\Test_Images\Rosacea (1).jpg,107,196,201,299,2,0.6139330863952637,420,420
+rosacea (9).jpg,D:\IBM_Assignments\yolo_structure\Data\Source_Images\Test_Images\rosacea (9).jpg,65,36,267,135,2,0.6220420002937317,637,251
+test.jpg,D:\IBM_Assignments\yolo_structure\Data\Source_Images\Test_Images\test.jpg,285,195,513,369,2,0.6797441244125366,800,534
