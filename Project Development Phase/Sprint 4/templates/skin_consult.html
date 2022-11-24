@@ -1,0 +1,123 @@
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kalam&family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href={{url_for('static', filename='css/index.css')}}
+    />
+
+    <title>Market</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-primary">
+      <a class="navbar-brand" href="#">
+        <img src="./../static/img/medical-team.png" class="img-logo" />
+        Skin HealthCare System
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav logout">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Logout</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="bg-success">
+      <div class="heading">
+        Skinnovation - Skin Disease Classification and Localization using
+        Artificial Intelligence
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col abt">
+          Now a day’s people are suffering from skin diseases, More than 125
+          million people suffering from Psoriasis also skin cancer rate is
+          rapidly increasing over the last few decades especially Melanoma is
+          most diversifying skin cancer. If skin diseases are not treated at an
+          earlier stage, then it may lead to complications in the body including
+          spreading of the infection from one individual to the other. The skin
+          diseases can be prevented by investigating the infected region at an
+          early stage. The characteristic of the skin images is diversified so
+          that it is a challenging job to devise an efficient and robust
+          algorithm for automatic detection of skin disease and its severity.
+          Skin tone and skin colour play an important role in skin disease
+          detection. Colour and coarseness of skin are visually different.
+          Automatic processing of such images for skin analysis requires
+          quantitative discriminator to differentiate the diseases. To overcome
+          the above problem we are building a model which is used for the
+          prevention and early detection of skin cancer, psoriasis. Basically,
+          skin disease diagnosis depends on the different characteristics like
+          colour, shape, texture etc. Here the person can capture the images of
+          skin and then the image will be sent the trained model. The model
+          analyses the image and detect whether the person is having skin
+          disease or not.
+        </div>
+        <div class="col">
+          <div class="card upload-card">
+            <img
+              src="./../static/img/skin_disease.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <p class="card-text" style="text-align:center">
+                Get Instant Identification of Disease by uploading your image
+                <div class="d-grid" style="text-align: center;">
+                  <form method="post" action="/result" enctype="multipart/form-data">
+                    <input class="form-control bg-warning" type="file" name="img" id="formFile" style="margin-bottom:1rem;color:#000000;">
+                    <button class="btn btn-primary upload-btn" type="submit">SUBMIT</button>
+                  </form>
+                </div>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Option 2: jQuery, Popper.js, and Bootstrap JS
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
